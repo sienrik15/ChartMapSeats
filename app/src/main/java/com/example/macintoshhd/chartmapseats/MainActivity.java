@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         // mWebView.setVerticalScrollBarEnabled(false);
         //mWebView.getSettings().setUseWideViewPort(true); //touch double Zoom
 
-        mWebView.addJavascriptInterface(new WebAppInterface(this),"JoinnusMobile");
+        mWebView.addJavascriptInterface(new WebAppInterface(this),"EventsMobile");
         //mWebView.loadUrl("https://www.w3schools.com/graphics/tryit.asp?filename=trysvg_myfirst");
-        mWebView.loadUrl("http://10.100.107.173:3000/svg"); //file:///android_asset/www/index.html
+        mWebView.loadUrl("file:///android_asset/www/index.html"); //file:///android_asset/www/index.html
     }
 }

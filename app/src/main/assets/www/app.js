@@ -21,15 +21,15 @@ $(document).ready(function() {
         if(cont1==0){
             cont1 = 1;
             color1 = "#17af25";
-            JoinnusMobile.setCheckSeat(JSON.stringify(javaScriptObject));
+            EventsMobile.setCheckSeat(JSON.stringify(javaScriptObject));
 
         }else{
             cont1 = 0;
             color1 = "#AEAEAE";
-            JoinnusMobile.setUnCheckSeat(JSON.stringify(javaScriptObject));
+            EventsMobile.setUnCheckSeat(JSON.stringify(javaScriptObject));
         }
         $(this).find('.available').css({ fill:color1 });
-        JoinnusMobile.showToast("Asiento Selecionado 1");
+        EventsMobile.showToast("Asiento Selecionado 1");
         //alert("Asiento Selecionado 1");
     });
 
@@ -38,14 +38,14 @@ $(document).ready(function() {
         if(cont==0){
             cont = 1;
             color = "#17af25";
-            JoinnusMobile.setCheckSeat(JSON.stringify(javaScriptObject));
+            EventsMobile.setCheckSeat(JSON.stringify(javaScriptObject));
         }else{
             cont = 0;
             color = "#AEAEAE";
-            JoinnusMobile.setUnCheckSeat(JSON.stringify(javaScriptObject));
+            EventsMobile.setUnCheckSeat(JSON.stringify(javaScriptObject));
         }
         $(this).find('.available').css({ fill:color });
-        JoinnusMobile.showToast("Asiento Selecionado 2");
+        EventsMobile.showToast("Asiento Selecionado 2");
         //alert("Asiento selecionado 2");
     });
 
