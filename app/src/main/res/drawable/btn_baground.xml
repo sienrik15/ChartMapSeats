@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  <stroke
+          android:width="2dp"
+          android:color="@color/colorPrimary"/> -->
+    <corners
+        android:radius="250dp"/>
+
+    <gradient
+        android:angle="180"
+        android:endColor="@color/color_joinnus_rojo"
+        android:centerColor="@color/color_joinnus_menos_rojo"
+        android:startColor="@color/color_joinnus_light_rojo"
+        android:type="linear" />
+
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp"/>
+
+</shape>
